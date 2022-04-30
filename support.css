@@ -1,0 +1,64 @@
+html{
+    font-family: Ubuntu,sans-serif;
+    
+}
+
+#div_elements{
+
+    color: black;
+    padding: 120px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+#navigation {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 20px;
+    position: sticky;
+    top: 0px;
+    height: 50px;
+}
+
+
+.navitem {
+    padding-right: 100px;
+    text-align: right;
+    font-family: Ubuntu;
+    align-items: center;
+    padding-bottom: 100px;
+    text-decoration: none;
+    color: black;
+}
+
+.navitem i{
+    padding-top: 23px;
+}
+
+#navitem1{
+    padding-left: 600px;
+}
+
+#navicon {
+    padding-left: 50px;
+}
+
+#footer-bar{
+    background-color: darkgray;
+    color: white;
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+#social-icon i{
+    padding-right: 20px;
+}
+
+#footer-bar p{
+    text-align: center;
+}

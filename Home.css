@@ -1,0 +1,187 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+/*Navigation */
+#navigation {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 20px;
+    position: sticky;
+    top: 0px;
+    height: 50px;
+}
+
+
+.navitem {
+    padding-right: 100px;
+    text-align: right;
+    font-family: Ubuntu;
+    align-items: center;
+    padding-bottom: 100px;
+    text-decoration: none;
+    color: black;
+}
+
+.navitem i{
+    padding-top: 23px;
+}
+
+#navitem1{
+    padding-left: 600px;
+}
+
+#navicon {
+    padding-left: 50px;
+}
+
+
+
+/* Wallpaper */
+#wallpaper{
+    width: 1280px;
+    height: 720px;
+    padding-left: 50px;
+
+}
+
+.learnmore, .order {
+    padding: 10px;
+    border: 0px;
+    border-radius: 20px;
+    width: 110px;
+
+}
+
+.order {
+    background-color: antiquewhite;
+    color: black;
+}
+
+.userbutton {
+    padding: 20px;
+    padding-left: 550px;
+    padding-bottom: 50px;
+}
+
+/* Style */
+#style-section {
+
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+
+}
+
+.style-item img {
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.style-item {
+    margin: 30px;
+    margin-left: 120px;
+}
+
+.style-item p {
+    font-family: Ubuntu,sans-serif;
+    font-size: xx-large;
+    text-align: center;
+}
+
+
+/* Product Summary */
+#product-summary {
+    display: flex;
+    flex-direction: row;
+}
+
+#product-summary img {
+    width: 600px;
+    height: 500px;
+    padding: 50px;
+}
+
+#product-descript{
+    margin: 30px;
+    padding-top: 10px;
+}
+
+#product-descript h1 {
+  font-size: xxx-large;
+    font-family: Arial;
+}
+
+#product-descript{
+    padding-top: 150px;
+}
+
+#product-descript ul li{
+    font-size: large;
+    font-family: Arial;
+    list-style: none;
+}
+
+#summary-button{
+    display: flex;
+    flex-direction: row;
+    padding-left: 60px;
+
+
+}
+
+/* Quotes */
+
+#quote{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+
+}
+.quotedetail{
+    width: 300px;
+}
+
+.quotedetail{
+    padding: 20px;
+}
+.quotedetail img {
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+}
+
+.quotedetail p{
+    font-family: Verdana;
+    word-wrap: break-word;
+
+}
+
+/* Footer Bar */
+
+#footer-bar{
+    background-color: darkgray;
+    color: white;
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+#social-icon i{
+    padding-right: 20px;
+    text-align: center;
+}
+
+#footer-bar p{
+    text-align: center;
+}
+
+
+
+
